@@ -1,0 +1,77 @@
+body{
+    background-image: url(images/wal-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.regform{
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px 30px;
+    color: white;
+    margin: 250px auto ;
+    border-radius: 20px;
+}
+
+
+.regform h3{
+   text-align: center;
+   color:gray;
+   /* background-color: blueviolet ; */
+   /* box-sizing: border-box; */
+   font-size: 30px;
+   
+}
+
+.regform .textlabel{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    padding:10px 10px;
+    border: 1px solid blueviolet;
+    box-shadow: 2px;
+    box-sizing: border-box;
+    margin: 10px 0px 10px;
+    border-radius: 10px;
+    
+
+}
+
+input:focus{
+    background-color:lightseagreen;
+}
+
+.btn{
+    text-align: center;   
+}
+
+button{
+    color: whitesmoke;
+    background-color:brown;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius:15px;
+    border: 1px solid brown;
+    cursor: pointer;
+}
+
+.radio input{
+    accent-color: red;
+    transform: scale(2);
+    
+   
+  
+}
+.radio label{
+    padding-right: 5%;
+}
+
+
+
+
+
